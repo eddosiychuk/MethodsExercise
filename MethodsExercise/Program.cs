@@ -7,10 +7,10 @@ namespace MethodsExercise
         static void Main(string[] args)
         {
             //-----------------------Exercise 1-----------------
-            //Your Name: Edd
-            //Your Favorite Color: Black
-            //Your Favorite Animal: 
-            //Your Favorite Band:
+            //Your Name
+            //Your Favorite Color
+            //Your Favorite Animal
+            //Your Favorite Band
 
             Console.WriteLine("Hello - What is your first name?");
             var userName = Console.ReadLine();
@@ -24,6 +24,15 @@ namespace MethodsExercise
             Console.WriteLine("Great! Now, what is yopur favorite band??");
             var band = Console.ReadLine();
 
+            Console.WriteLine($"Thanks, {userName}! Here is your profile");
+            Console.WriteLine("------------------------");
+
+
+            Console.WriteLine($"Name: {userName}");
+            Console.WriteLine($"Favorite Color: {color}");
+            Console.WriteLine($"Favorite Animal: {animal}");
+            Console.WriteLine($"Favorite Band: {band}");
+     
         }
     }
 }
